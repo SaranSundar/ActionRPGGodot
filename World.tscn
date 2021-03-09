@@ -540,7 +540,7 @@ position = Vector2( 84, 34 )
 position = Vector2( 47.2956, 103.512 )
 
 [node name="AnimatedSprite" parent="YSort/Bats/Bat" index="0"]
-frame = 1
+frame = 2
 
 [node name="Stats" parent="YSort/Bats/Bat" index="4"]
 max_health = 2
@@ -549,7 +549,7 @@ max_health = 2
 position = Vector2( 179.695, 63.8633 )
 
 [node name="AnimatedSprite" parent="YSort/Bats/Bat2" index="0"]
-frame = 1
+frame = 2
 
 [node name="Stats" parent="YSort/Bats/Bat2" index="4"]
 max_health = 4
@@ -558,7 +558,7 @@ max_health = 4
 position = Vector2( 185.643, 115.124 )
 
 [node name="AnimatedSprite" parent="YSort/Bats/Bat3" index="0"]
-frame = 1
+frame = 2
 
 [node name="Stats" parent="YSort/Bats/Bat3" index="4"]
 max_health = 3

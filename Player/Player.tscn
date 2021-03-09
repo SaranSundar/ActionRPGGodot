@@ -589,7 +589,7 @@ blend_mode = 1
 
 [sub_resource type="AnimationNodeStateMachine" id=44]
 states/Attack/node = SubResource( 22 )
-states/Attack/position = Vector2( 619.25, 224.41 )
+states/Attack/position = Vector2( 618.75, 225.228 )
 states/Idle/node = SubResource( 27 )
 states/Idle/position = Vector2( 835, 226 )
 states/Roll/node = SubResource( 32 )
@@ -613,7 +613,7 @@ script = ExtResource( 2 )
 position = Vector2( 0, -9 )
 texture = ExtResource( 1 )
 hframes = 60
-frame = 59
+frame = 36
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 rotation = 1.5708
@@ -641,10 +641,10 @@ anims/RunUp = SubResource( 17 )
 tree_root = SubResource( 44 )
 anim_player = NodePath("../AnimationPlayer")
 parameters/playback = SubResource( 45 )
-parameters/Attack/blend_position = Vector2( 0.232274, 0.352 )
-parameters/Idle/blend_position = Vector2( 0, 0 )
-parameters/Roll/blend_position = Vector2( 0.0112936, 1.08652 )
-parameters/Run/blend_position = Vector2( 0, 0 )
+parameters/Attack/blend_position = Vector2( 0, 1 )
+parameters/Idle/blend_position = Vector2( 0, 1 )
+parameters/Roll/blend_position = Vector2( 0, 1 )
+parameters/Run/blend_position = Vector2( 0, 1 )
 __meta__ = {
 "_editor_description_": ""
 }
